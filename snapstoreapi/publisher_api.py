@@ -54,7 +54,6 @@ REGISTER_NAME_URL = ''.join([
     'register-name/'
 ])
 
-
 def process_response(response):
     try:
         body = response.json()

@@ -22,6 +22,7 @@ def get_authorization_header(root, discharge):
         Macaroon.deserialize(discharge)
     )
 
+    print('#########################################################################')
     return 'Macaroon root={}, discharge={}'.format(root, bound.serialize())
 
 
